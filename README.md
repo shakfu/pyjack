@@ -18,7 +18,7 @@ PyJack version 0.5.3
 
 - More Jack implementations by falkTX <falktx@gmail.com>, in Apr 2010
 
-- Updated by shakfu to python3 c-api at the github [repo](https://github.com/shakfu/pyjack) in Feb 2022
+- Updates by shakfu in Feb 2022 in a fork to [repo](https://github.com/shakfu/pyjack)) with and conversion of code to python3 and removal of deprecated numpy c-api
 
 
 This is open source software released under the GPL license.
@@ -80,7 +80,7 @@ is recommended.
 
 In order to capture or playback audio without missing a block,
 Python must call jack.process() at least once every `500 * (N/Sr)`
-milliseconds.  `(N = jack.get_buffer_size(), Sr = jack.get_sample_rate())`.
+milliseconds where  `N = jack.get_buffer_size()` and `Sr = jack.get_sample_rate()`.
 
 If this rate is not kept up, you may get `jack.InputSyncError` or 
 `jack.OutputSyncError` exceptions thrown by `jack.process()`.
