@@ -1,9 +1,8 @@
 # pyjack (python3 version)
 
-If you are looking for a mature and well-maintained python jack client,
-please see spatialaudio's jackclient-python [project](https://github.com/spatialaudio/jackclient-python)
+If you are looking for a mature and well-maintained python jack client, please see spatialaudio's [jackclient-python](https://github.com/spatialaudio/jackclient-python) project.
 
-Thisproject is an attempt to update and make functional the umaintained [pyjack 0.52](https://pypi.org/project/py-jack/) pypi project which was last updated in 2010.
+This project is an attempt to update and make functional the umaintained [pyjack 0.52](https://pypi.org/project/py-jack/) project last updated in 2010.
 
 The following is planed:
 
