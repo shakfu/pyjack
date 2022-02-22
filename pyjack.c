@@ -1,5 +1,5 @@
 /**
-  * pyjackc - C module implementation for pyjack
+  * pyjack - C module implementation for pyjack
   *
   * Copyright 2003 Andrew W. Schmeder <andy@a2hd.com>
   * Copyright 2010 Filipe Coelho (aka 'falkTX') <falktx@gmail.com>
