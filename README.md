@@ -1,10 +1,22 @@
 # pyjack (python3 version)
 
-Note: this is an updated python3 version of the [pyjack 0.52](https://pypi.org/project/py-jack/) pypi project
+If you are looking for a mature and well-maintained python jack client,
+please see spatialaudio's jackclient-python [project](https://github.com/spatialaudio/jackclient-python)
 
-The pypi project is currently a direct clone of the SourceForge project at http://py-jack.sourceforge.net/
+Thisproject is an attempt to update and make functional the umaintained [pyjack 0.52](https://pypi.org/project/py-jack/) pypi project which was last updated in 2010.
+
+The following is planed:
+
+- [x] convert to python3
+- [x] remove numpy c-api deprecation
+- [x] compile without errors
+- [ ] make it functional 
+- [ ] possibly convert to cython
+
 
 ## Original readme follows
+
+The pypi project is currently a direct clone of the SourceForge project at http://py-jack.sourceforge.net/
 
 PyJack version 0.5.3
 
